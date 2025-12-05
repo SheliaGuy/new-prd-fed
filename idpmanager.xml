@@ -1,0 +1,15 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://www.okta.com/exkfpjnh99HNAjFUZ0i7">
+<md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>MIIDmjCCAoKgAwIBAgIGAZT6YiJbMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU MBIGA1UECwwLU1NPUHJvdmlkZXIxDjAMBgNVBAMMBWVuZ2llMRwwGgYJKoZIhvcNAQkBFg1pbmZv QG9rdGEuY29tMB4XDTI1MDIxMjEzMzc0MloXDTM1MDIxMjEzMzg0MlowgY0xCzAJBgNVBAYTAlVT MRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYDVQQKDARP a3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEOMAwGA1UEAwwFZW5naWUxHDAaBgkqhkiG9w0BCQEW DWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCp8QwjA+esa9YV FxoE65OesSrSmMwowOy3g/IH4sf+hXy88oTct8d/mLvSPI8j63GMa4w6cgFHsHDNShUukLVEs1yZ 3Apu3t8/7ScvB3aBy8XU3PxsHkKG9knnxuXBq80bJcX8BlX6qx+HLvWx4kPAp2xKVw9lZMePpjpx 0uU7eD+Y5zIrFfczWVDj6oZVmLZ03ITEcQiiXCXDUqWe2m460jG5VuKLC8zyMa8U/vVXZtxmvGIH Ic4S3J+Kqkn2AEBQmC9De5CZJdb4p7SxP23Q7hFgJaOB/ZKq2y0NV7SesRvWygYUUfIBCDmRddGo psmPJ1x9ayXw1gL/FF+GGHavAgMBAAEwDQYJKoZIhvcNAQELBQADggEBABIiRNzzttzMldALKZea 266hxrc9KfNWnrkzeUiIsrDg9dargIH+zgztTXsg+9aV7bMhH/IQ7Y+3imUdTAbtkxJS1atbKeKF RWoouQ+jBEA30RHFOgmn2RQcVeynCbZcGbkoeZ5vEWqrmjuwRTgLig8xZRWgbfIcqlgXqTlXv33f 5Tv7JVoaTe8Cv9+eQZyt5l/NW4lhmIRTlThJ4+EX8pR/xMIrxLK5iKPtI509bqc8sE2meuJxF0XL wSS6NIw+wXbqsW+3PIQEkm+aKFKrTB/QSARBmvI3XZtcjE8LeaKrdwOkZ44MjGnA3lm9z/jr2h5K 8LUVptFP08kBCgdZX54=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://engie.okta-emea.com/app/engie_apimanagementaxway_1/exkfpjnh99HNAjFUZ0i7/sso/saml?RelayState=https%3A%2F%2Fapi-manager.engieenergia.com.br%2Fapi%2Fportal%2Fv1.4%2Fsso%2Flogin"/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://engie.okta-emea.com/app/engie_apimanagementaxway_1/exkfpjnh99HNAjFUZ0i7/sso/saml?RelayState=https%3A%2F%2Fapi-manager.engieenergia.com.br%2Fapi%2Fportal%2Fv1.4%2Fsso%2Flogin"/>
+</md:IDPSSODescriptor>
+</md:EntityDescriptor>

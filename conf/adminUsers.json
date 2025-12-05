@@ -1,0 +1,53 @@
+{
+  "productVersion" : "7.7.0",
+  "version" : 1,
+  "timestamp" : 0,
+  "adminUsers" : [ {
+    "id" : "user-1",
+    "name" : "admin",
+    "roles" : [ "role-1", "role-6", "role-7" ]
+  } ],
+  "adminUserCredentials" : {
+    "user-1" : {
+      "passwordHistory" : [ "$AAGQAAAAAQAC$uz3JVufMhMJ2dLg1Akc1JA==$zDA8Lh9+YH7I4xXlCt49aXnsSqclxySJ3Q08VvFKCyU=" ],
+      "passwordTimestamp" : 1716798291794
+    }
+  },
+  "adminUserRoles" : [ {
+    "id" : "role-1",
+    "name" : "API Server Administrator",
+    "displayName" : "API Gateway Administrator"
+  }, {
+    "id" : "role-2",
+    "name" : "API Server Operator",
+    "displayName" : "API Gateway Operator"
+  }, {
+    "id" : "role-5",
+    "name" : "Deployer",
+    "displayName" : "Deployer"
+  }, {
+    "id" : "role-6",
+    "name" : "KPS Administrator",
+    "displayName" : "KPS Administrator"
+  }, {
+    "id" : "role-7",
+    "name" : "Policy Developer",
+    "displayName" : "Policy Developer"
+  }, {
+    "id" : "role-8",
+    "name" : "CN=GD-APIGM-BR02-PROD-API-Gateway-Administrator,OU=APIM,OU=Grupos,OU=Administracao,OU=BR02,DC=D92,DC=tes,DC=local",
+    "displayName" : "GD-APIGM-BR02-PROD-API-Gateway-Administrator"  
+  }, {
+    "id" : "role-9",
+    "name" : "CN=GD-APIGM-BR02-PROD-API-Gateway-Operator,OU=APIM,OU=Grupos,OU=Administracao,OU=BR02,DC=D92,DC=tes,DC=local",
+    "displayName" : "GD-APIGM-BR02-PROD-API-Gateway-Operator"  
+  } ],
+  "uniqueIdCounters" : {
+    "Role" : 8,
+    "User" : 2
+  },
+  "adminUsersVersion" : {
+    "version" : 1,
+    "timestamp" : 0
+  }
+}
